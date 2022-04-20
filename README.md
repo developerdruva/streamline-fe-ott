@@ -3,7 +3,7 @@
 an online streaming OTT application.
 
 for demo:
-click https://streamlineott.netlify.app
+https://streamlineott.netlify.app
 
 use guest credentials to see or register
 
