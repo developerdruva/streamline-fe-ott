@@ -1,6 +1,8 @@
 # streamline 
 
-an online streaming OTT application.
+an online streaming OTT application. 
+
+using Reactjs+Redux, Express, NodeJs and MongoDB + MongoDB Atlas
 
 for demo:
 https://streamlineott.netlify.app
