@@ -1,0 +1,17 @@
+.footer {
+  background-color: black;
+}
+.footer ul {
+  list-style: none;
+  color: #b7d3d3;
+}
+.footer div button {
+  font-family: Audiowide;
+  color: #b7d3d3;
+  text-shadow: 1px 1px 5px rgb(221, 94, 233);
+  text-decoration: none;
+  font-size: xx-large;
+}
+.footer div button:hover {
+  color: aliceblue;
+}

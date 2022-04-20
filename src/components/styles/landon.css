@@ -1,0 +1,177 @@
+.boxMain {
+  top: 0px;
+  left: 0px;
+  background: #0c111b 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: auto;
+}
+
+.posterLside {
+  height: 500px;
+  width: 300px;
+  animation-name: lpost;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+@keyframes lpost {
+  from {
+    transform: translateX(20px);
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.posterMiddle {
+  background: url("../images/landpage/middleposter.jpg") no-repeat;
+  background-size: contain;
+  background-position-y: center;
+  background-position-x: center;
+  height: 498px;
+  width: 710px;
+  animation-name: midpost;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+@keyframes midpost {
+  from {
+    transform: translateY(20px);
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.posterRside {
+  height: 500px;
+  width: 300px;
+  animation-name: rpost;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+
+@keyframes rpost {
+  from {
+    transform: translateX(-20px);
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.posterMiddle div {
+  background-color: black;
+  opacity: 0.7;
+  border-radius: 15px;
+}
+.emailField {
+  width: 320px;
+  border-radius: 15px;
+  height: 2rem;
+  background-color: #1d212a;
+  border: none;
+}
+.emailField::placeholder {
+  text-align: center;
+}
+
+.mcard {
+  background: var(--unnamed-color-1d212a) 0% 0% no-repeat padding-box;
+  background: #1d212a 0% 0% no-repeat padding-box;
+  box-shadow: 7px 7px 7px #0000003b;
+  border-radius: 14px;
+  opacity: 1;
+  margin-left: 10px;
+}
+.mcard img {
+  height: 300px;
+  width: 280px;
+  padding: 25px;
+  display: inline-block;
+}
+.mcard:hover {
+  top: -2px;
+  /* box-shadow: 1px 2px 10px 1px rgb(99, 99, 129); */
+}
+
+.spidyImg {
+  width: 30rem;
+  height: 20rem;
+}
+
+.landCarousel img {
+  height: 22rem;
+  width: 45rem;
+  border-radius: 0;
+}
+@media (min-width: 300px) and (max-width: 600px) {
+  .spidyImg {
+    width: 18rem;
+    height: 15rem;
+  }
+  .posterLside {
+    height: 150px;
+    width: 65px;
+  }
+  .posterMiddle {
+    height: 150px;
+    width: 300px;
+  }
+  .posterRside {
+    height: 150px;
+    width: 65px;
+  }
+  .landCarousel img {
+    height: 8rem;
+    width: 25rem;
+    margin-top: 0;
+  }
+  .landCarousel img {
+    height: 4rem;
+    width: 15rem;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .spidyImg {
+    width: 18rem;
+    height: 15rem;
+  }
+  .posterLside {
+    height: 150px;
+    width: 65px;
+  }
+  .posterMiddle {
+    height: 150px;
+    width: 300px;
+  }
+  .posterRside {
+    height: 150px;
+    width: 65px;
+  }
+  .landCarousel img {
+    height: 8rem;
+    width: 25rem;
+    margin-top: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 1280px) {
+  .posterLside {
+    height: 500px;
+    width: 200px;
+  }
+  .posterMiddle {
+    height: 500px;
+    width: 800px;
+  }
+  .posterRside {
+    height: 500px;
+    width: 200px;
+  }
+  .landCarousel img {
+    height: 22rem;
+    width: 25rem;
+  }
+}

@@ -1,0 +1,22 @@
+.tablestyle td {
+  border: none;
+  text-align: center;
+}
+.tablestyle tr th {
+  border: none;
+}
+.tablestyle th {
+  border: none;
+  text-align: center;
+}
+.tablestyle tr:hover {
+  color: aquamarine;
+}
+
+.tablestyle tbody tr td:hover {
+  color: rgb(99, 199, 212);
+}
+.tablestyle tbody button {
+  font-size: 12px;
+  border-radius: 15px;
+}

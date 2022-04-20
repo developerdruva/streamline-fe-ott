@@ -1,0 +1,35 @@
+.likeCard {
+  width: 14rem;
+  background: none;
+  border: none;
+}
+.likeCard img {
+  padding: 1rem;
+}
+.likeCard img:hover {
+  padding: 0.8rem;
+}
+.likeCard div div p {
+  font-size: 11px;
+  padding: 0.2rem;
+}
+.logoMain {
+  font-family: Audiowide;
+  color: #b7d3d3;
+  text-shadow: 1px 1px 5px rgb(221, 94, 233);
+  text-decoration: none;
+  font-size: xx-large;
+}
+.logoMain:hover {
+  color: aliceblue;
+}
+.vid {
+  border-radius: 15px;
+  width: 50rem;
+  border: none;
+  outline: none;
+}
+
+.carousel img {
+  border-radius: 25px;
+}

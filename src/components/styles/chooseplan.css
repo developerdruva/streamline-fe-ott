@@ -1,0 +1,19 @@
+.coupon {
+  background-color: rgb(0, 0, 5);
+  border-radius: 10px;
+  height: 15rem;
+  width: 25rem;
+  box-shadow: 3px 4px 15px 2px rgb(0, 0, 0);
+  transition: 2ms;
+  border-bottom: 3px solid skyblue;
+}
+.coupon-div {
+  border-left: 1px dotted skyblue;
+}
+
+.coupon:hover {
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  top: -5px;
+  transition: 2ms;
+}

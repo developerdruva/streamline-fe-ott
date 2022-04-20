@@ -1,0 +1,8 @@
+.signInform {
+  border-radius: 15px;
+  box-shadow: 1px 2px 5px 2px rgb(29, 29, 39);
+  background-color: #1d212a;
+}
+.signInform input {
+  width: 300px;
+}
